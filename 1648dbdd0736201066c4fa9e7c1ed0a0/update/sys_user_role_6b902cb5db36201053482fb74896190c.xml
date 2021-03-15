@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by display_value="sn_publications.admin" name="sn_publications.admin">73942c25c30112004bd67bfaa2d3ae53</assignable_by>
+        <can_delegate>true</can_delegate>
+        <description>student can only update the record and read but cannot do any modifications</description>
+        <elevated_privilege>true</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_594727_sru.student</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>student</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 09:19:32</sys_created_on>
+        <sys_id>6b902cb5db36201053482fb74896190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_594727_sru.student</sys_name>
+        <sys_package display_value="SRU" source="x_594727_sru">1648dbdd0736201066c4fa9e7c1ed0a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</sys_scope>
+        <sys_update_name>sys_user_role_6b902cb5db36201053482fb74896190c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-10 09:19:32</sys_updated_on>
+    </sys_user_role>
+</record_update>
