@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>to_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>date</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var form=g_form.getValue('form_date');
+	var to=g_form.getValue('to_date');
+	if(form==to)
+		{
+			g_form.setVisible('no_of_records','false');
+		}
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 10:03:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7357efe3dbbaa01053482fb7489619f6</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SRU" source="x_594727_sru">1648dbdd0736201066c4fa9e7c1ed0a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</sys_scope>
+        <sys_update_name>sys_script_client_7357efe3dbbaa01053482fb7489619f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 10:23:46</sys_updated_on>
+        <table>x_594727_sru_anitha</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

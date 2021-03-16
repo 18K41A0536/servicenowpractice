@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="anitha">556ec7a3db7aa01053482fb7489619e9</application>
+        <filter/>
+        <name>anithas</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_594727_sru.anitha_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 08:13:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>116ec7a3db7aa01053482fb7489619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>anithas</sys_name>
+        <sys_package display_value="SRU" source="x_594727_sru">1648dbdd0736201066c4fa9e7c1ed0a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</sys_scope>
+        <sys_update_name>sys_ui_module_116ec7a3db7aa01053482fb7489619ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 08:13:55</sys_updated_on>
+        <table>x_594727_sru_anitha</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</application>
+        <file_path/>
+        <instance_id>a77f1683db865bccff27d5b0cf961985</instance_id>
+        <instance_name>dev59633</instance_name>
+        <name>sys_ui_module_116ec7a3db7aa01053482fb7489619ec</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="anitha">556ec7a3db7aa01053482fb7489619e9</application><filter/><name>anithas</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_594727_sru.anitha_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-16 08:13:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>116ec7a3db7aa01053482fb7489619ec</sys_id><sys_mod_count>0</sys_mod_count><sys_name>anithas</sys_name><sys_package display_value="SRU" source="x_594727_sru">1648dbdd0736201066c4fa9e7c1ed0a0</sys_package><sys_policy/><sys_scope display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</sys_scope><sys_update_name>sys_ui_module_116ec7a3db7aa01053482fb7489619ec</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-16 08:13:55</sys_updated_on><table>x_594727_sru_anitha</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-538780629</payload_hash>
+        <record_name>anithas</record_name>
+        <reverted_from/>
+        <source>df818871dbf2201053482fb7489619fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 08:13:55</sys_created_on>
+        <sys_id>d56e0ba3db7aa01053482fb748961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1783a193ca30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 08:13:55</sys_updated_on>
+        <type>Module</type>
+        <update_guid>116e0ba3847aa010ace0be68a3f19807</update_guid>
+        <update_guid_history>116e0ba3847aa010ace0be68a3f19807:-538780629</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 08:14:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>d7ab627bbfb14ba8a793ad4e7a7f1510</sys_id>
+        <sys_metadata>116ec7a3db7aa01053482fb7489619ec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>anithas</sys_name>
+        <sys_package display_value="SRU" source="x_594727_sru">1648dbdd0736201066c4fa9e7c1ed0a0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</sys_scope>
+        <sys_scope_delete display_value="">03886e49c878401080f86a6d6a30d910</sys_scope_delete>
+        <sys_update_name>sys_ui_module_116ec7a3db7aa01053482fb7489619ec</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_116ec7a3db7aa01053482fb7489619ec">d56e0ba3db7aa01053482fb748961907</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 08:14:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

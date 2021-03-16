@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 08:13:56</sys_created_on>
+        <sys_id>556e0ba3db7aa01053482fb74896191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_594727_sru_anitha.x_594727_sru.anitha_user</sys_name>
+        <sys_package display_value="SRU" source="x_594727_sru">1648dbdd0736201066c4fa9e7c1ed0a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</sys_scope>
+        <sys_security_acl display_value="x_594727_sru_anitha">d56e0ba3db7aa01053482fb74896191b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_556e0ba3db7aa01053482fb74896191e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 08:13:56</sys_updated_on>
+        <sys_user_role display_value="x_594727_sru.anitha_user" name="x_594727_sru.anitha_user">056e8b63db7aa01053482fb74896190b</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</application>
+        <file_path/>
+        <instance_id>a77f1683db865bccff27d5b0cf961985</instance_id>
+        <instance_name>dev59633</instance_name>
+        <name>sys_security_acl_role_556e0ba3db7aa01053482fb74896191e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-16 08:13:56</sys_created_on><sys_id>556e0ba3db7aa01053482fb74896191e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_594727_sru_anitha.x_594727_sru.anitha_user</sys_name><sys_package display_value="SRU" source="x_594727_sru">1648dbdd0736201066c4fa9e7c1ed0a0</sys_package><sys_policy/><sys_scope display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</sys_scope><sys_security_acl display_value="x_594727_sru_anitha">d56e0ba3db7aa01053482fb74896191b</sys_security_acl><sys_update_name>sys_security_acl_role_556e0ba3db7aa01053482fb74896191e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-16 08:13:56</sys_updated_on><sys_user_role display_value="x_594727_sru.anitha_user" name="x_594727_sru.anitha_user">056e8b63db7aa01053482fb74896190b</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-760694598</payload_hash>
+        <record_name>x_594727_sru_anitha.x_594727_sru.anitha_user</record_name>
+        <reverted_from/>
+        <source>df818871dbf2201053482fb7489619fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 08:13:56</sys_created_on>
+        <sys_id>9d6e0ba3db7aa01053482fb748961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1783a193e440000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 08:13:56</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>d56e0ba31f7aa010c9380973e2c5d420</update_guid>
+        <update_guid_history>d56e0ba31f7aa010c9380973e2c5d420:-760694598</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_594727_sru_anitha.x_594727_sru.anitha_user">639e0fa3db7aa01053482fb748961957</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 08:14:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1e6556b26f4543ba8895253c33810be9</sys_id>
+        <sys_metadata>556e0ba3db7aa01053482fb74896191e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_594727_sru_anitha.x_594727_sru.anitha_user</sys_name>
+        <sys_package display_value="SRU" source="x_594727_sru">1648dbdd0736201066c4fa9e7c1ed0a0</sys_package>
+        <sys_parent display_value="">d56e0ba3db7aa01053482fb74896191b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</sys_scope>
+        <sys_scope_delete display_value="">03886e49c878401080f86a6d6a30d910</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_556e0ba3db7aa01053482fb74896191e</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_556e0ba3db7aa01053482fb74896191e">9d6e0ba3db7aa01053482fb748961920</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 08:14:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>rollno</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>onchange</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+	   alert("sucess");
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 05:39:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8eaaea6bdbf6a01053482fb7489619ab</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>onchange</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SRU" source="x_594727_sru">1648dbdd0736201066c4fa9e7c1ed0a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</sys_scope>
+        <sys_update_name>sys_script_client_8eaaea6bdbf6a01053482fb7489619ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 06:18:19</sys_updated_on>
+        <table>x_594727_sru_student_data</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</application>
+        <file_path/>
+        <instance_id>a77f1683db865bccff27d5b0cf961985</instance_id>
+        <instance_name>dev59633</instance_name>
+        <name>sys_script_client_8eaaea6bdbf6a01053482fb7489619ab</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;rollno&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;onchange&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+	   alert("sucess");
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-03-16 05:39:22&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8eaaea6bdbf6a01053482fb7489619ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;onchange&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="SRU" source="x_594727_sru"&gt;1648dbdd0736201066c4fa9e7c1ed0a0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SRU"&gt;1648dbdd0736201066c4fa9e7c1ed0a0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_8eaaea6bdbf6a01053482fb7489619ab&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-16 06:18:19&lt;/sys_updated_on&gt;&lt;table&gt;x_594727_sru_student_data&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1477467882</payload_hash>
+        <record_name>onchange</record_name>
+        <reverted_from/>
+        <source>df818871dbf2201053482fb7489619fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 06:18:19</sys_created_on>
+        <sys_id>33e3f623db3aa01053482fb748961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17839af64760000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 06:18:19</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>7be3f623c13aa0101c06f9abb7358512</update_guid>
+        <update_guid_history>7be3f623c13aa0101c06f9abb7358512:-1477467882,97b33623323aa010ac19319455dc4cd4:211232767,72833623a13aa0105b2c5b9de5d59821:-1019818197,b47332239e3aa0106119149f2ee58de3:-1276544848,096b26abacf6a0104b3741ac9406d12f:730865885,483b62abd0f6a0105f67b12ad6d46acc:-1188970588,5d0be66b9ef6a010a7e97285cd751758:1730236887</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 06:19:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>05cddd46c2a042088058aea672bbcba4</sys_id>
+        <sys_metadata>8eaaea6bdbf6a01053482fb7489619ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onchange</sys_name>
+        <sys_package display_value="SRU" source="x_594727_sru">1648dbdd0736201066c4fa9e7c1ed0a0</sys_package>
+        <sys_parent display_value="Student Data">c3714c71dbf2201053482fb7489619f2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</sys_scope>
+        <sys_scope_delete display_value="">03886e49c878401080f86a6d6a30d910</sys_scope_delete>
+        <sys_update_name>sys_script_client_8eaaea6bdbf6a01053482fb7489619ab</sys_update_name>
+        <sys_update_version display_value="sys_script_client_8eaaea6bdbf6a01053482fb7489619ab">33e3f623db3aa01053482fb748961913</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 06:19:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

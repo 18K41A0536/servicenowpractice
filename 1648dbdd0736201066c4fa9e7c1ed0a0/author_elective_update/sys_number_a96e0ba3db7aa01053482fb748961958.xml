@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_594727_sru_anitha">x_594727_sru_anitha</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>ANI</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 08:13:56</sys_created_on>
+        <sys_id>a96e0ba3db7aa01053482fb748961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ANI</sys_name>
+        <sys_package display_value="SRU" source="x_594727_sru">1648dbdd0736201066c4fa9e7c1ed0a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</sys_scope>
+        <sys_update_name>sys_number_a96e0ba3db7aa01053482fb748961958</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 08:13:56</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</application>
+        <file_path/>
+        <instance_id>a77f1683db865bccff27d5b0cf961985</instance_id>
+        <instance_name>dev59633</instance_name>
+        <name>sys_number_a96e0ba3db7aa01053482fb748961958</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_594727_sru_anitha">x_594727_sru_anitha</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>ANI</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-16 08:13:56</sys_created_on><sys_id>a96e0ba3db7aa01053482fb748961958</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ANI</sys_name><sys_package display_value="SRU" source="x_594727_sru">1648dbdd0736201066c4fa9e7c1ed0a0</sys_package><sys_policy/><sys_scope display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</sys_scope><sys_update_name>sys_number_a96e0ba3db7aa01053482fb748961958</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-16 08:13:56</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-116738711</payload_hash>
+        <record_name>ANI</record_name>
+        <reverted_from/>
+        <source>df818871dbf2201053482fb7489619fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 08:13:57</sys_created_on>
+        <sys_id>a16e0ba3db7aa01053482fb74896196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1783a1942bf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 08:13:57</sys_updated_on>
+        <type>Number</type>
+        <update_guid>e96e0ba3497aa010cf68610e672fed6c</update_guid>
+        <update_guid_history>e96e0ba3497aa010cf68610e672fed6c:-116738711</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-16 08:14:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>01fea812f8a643109fb4002727d78610</sys_id>
+        <sys_metadata>a96e0ba3db7aa01053482fb748961958</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ANI</sys_name>
+        <sys_package display_value="SRU" source="x_594727_sru">1648dbdd0736201066c4fa9e7c1ed0a0</sys_package>
+        <sys_parent display_value="">c6ad03a3db7aa01053482fb74896198c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</sys_scope>
+        <sys_scope_delete display_value="">03886e49c878401080f86a6d6a30d910</sys_scope_delete>
+        <sys_update_name>sys_number_a96e0ba3db7aa01053482fb748961958</sys_update_name>
+        <sys_update_version display_value="sys_number_a96e0ba3db7aa01053482fb748961958">a16e0ba3db7aa01053482fb74896196d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 08:14:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

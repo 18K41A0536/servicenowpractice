@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="SRU">5b2d1bdd0736201066c4fa9e7c1ed03c</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_594727_sru_faculty">department=Cse^department=Ece^EQ<item display_value="Cse" endquery="false" field="department" goto="false" newquery="false" operator="=" or="false" value="Cse"/>
+            <item display_value="Ece" endquery="false" field="department" goto="false" newquery="false" operator="=" or="false" value="Ece"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint>hi</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>both ece and cse</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_594727_sru_faculty</name>
+        <order>110</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-15 09:54:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a66b9693db7e601053482fb748961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>both ece and cse</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SRU" source="x_594727_sru">1648dbdd0736201066c4fa9e7c1ed0a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</sys_scope>
+        <sys_update_name>sys_app_module_a66b9693db7e601053482fb748961940</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-15 09:54:02</sys_updated_on>
+        <timeline_page/>
+        <title>both ece and cse</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</application>
+        <file_path/>
+        <instance_id>a77f1683db865bccff27d5b0cf961985</instance_id>
+        <instance_name>dev59633</instance_name>
+        <name>sys_app_module_a66b9693db7e601053482fb748961940</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="SRU">5b2d1bdd0736201066c4fa9e7c1ed03c</application><assessment/><device_type/><filter table="x_594727_sru_faculty">department=Cse^department=Ece^EQ<item display_value="Cse" endquery="false" field="department" goto="false" newquery="false" operator="=" or="false" value="Cse"/><item display_value="Ece" endquery="false" field="department" goto="false" newquery="false" operator="=" or="false" value="Ece"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint>hi</hint><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>both ece and cse</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_594727_sru_faculty</name><order>110</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-15 09:54:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a66b9693db7e601053482fb748961940</sys_id><sys_mod_count>0</sys_mod_count><sys_name>both ece and cse</sys_name><sys_overrides/><sys_package display_value="SRU" source="x_594727_sru">1648dbdd0736201066c4fa9e7c1ed0a0</sys_package><sys_policy/><sys_scope display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</sys_scope><sys_update_name>sys_app_module_a66b9693db7e601053482fb748961940</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-15 09:54:02</sys_updated_on><timeline_page/><title>both ece and cse</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>2088343305</payload_hash>
+        <record_name>both ece and cse</record_name>
+        <reverted_from/>
+        <source>df818871dbf2201053482fb7489619fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-15 09:54:02</sys_created_on>
+        <sys_id>cebbd2d3db7e601053482fb74896197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178354e87f30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-15 09:54:02</sys_updated_on>
+        <type>Module</type>
+        <update_guid>0abbd2d3a87e60108090c5c5e4c9217c</update_guid>
+        <update_guid_history>0abbd2d3a87e60108090c5c5e4c9217c:2088343305</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="both ece and cse">605c1ad3db7e601053482fb748961948</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-15 09:56:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>2e71bdab2ba34c5d82e4ae5bbaefe419</sys_id>
+        <sys_metadata>a66b9693db7e601053482fb748961940</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>both ece and cse</sys_name>
+        <sys_package display_value="SRU" source="x_594727_sru">1648dbdd0736201066c4fa9e7c1ed0a0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</sys_scope>
+        <sys_scope_delete display_value="">03886e49c878401080f86a6d6a30d910</sys_scope_delete>
+        <sys_update_name>sys_app_module_a66b9693db7e601053482fb748961940</sys_update_name>
+        <sys_update_version display_value="sys_app_module_a66b9693db7e601053482fb748961940">cebbd2d3db7e601053482fb74896197c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-15 09:56:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

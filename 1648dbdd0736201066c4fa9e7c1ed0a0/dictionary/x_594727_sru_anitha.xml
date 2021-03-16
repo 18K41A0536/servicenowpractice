@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="anitha" max_length="40" name="x_594727_sru_anitha" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Department" max_length="10" name="department" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CSE" sequence="0" value="cse"/>
+                <element inactive_on_update="false" label="ECE" sequence="1" value="ece"/>
+                <element inactive_on_update="false" label="CIVIL" sequence="2" value="civil"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="faculty type" max_length="20" name="faculty_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Assis prof" sequence="0" value="assis prof"/>
+                <element inactive_on_update="false" label="Associate professor" sequence="1" value="associate professor"/>
+                <element inactive_on_update="false" label="Professor" sequence="2" value="professor"/>
+                <element inactive_on_update="false" label="Hod" sequence="3" value="hod"/>
+            </choice>
+        </element>
+        <element label="form date" max_length="40" name="form_date" type="glide_date"/>
+        <element label="hod name" max_length="40" name="hod_name" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="No of records" max_length="40" name="no_of_records" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="to date" max_length="40" name="to_date" type="glide_date"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
