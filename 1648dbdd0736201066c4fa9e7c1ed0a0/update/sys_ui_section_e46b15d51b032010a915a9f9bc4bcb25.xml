@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="proof" section_id="e46b15d51b032010a915a9f9bc4bcb25" sys_domain="global" table="x_594727_sru_customer_information" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>aadhar_number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-21 10:20:48</sys_created_on>
+            <sys_id>b46b15d51b032010a915a9f9bc4bcba5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="proof" display_value="proof" name="x_594727_sru_customer_information" sys_domain="global" view="Default view">e46b15d51b032010a915a9f9bc4bcb25</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-21 10:20:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pan_card_number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-21 10:20:48</sys_created_on>
+            <sys_id>386b15d51b032010a915a9f9bc4bcba5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="proof" display_value="proof" name="x_594727_sru_customer_information" sys_domain="global" view="Default view">e46b15d51b032010a915a9f9bc4bcb25</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-21 10:20:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>proof</caption>
+            <header>false</header>
+            <name>x_594727_sru_customer_information</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-21 10:20:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e46b15d51b032010a915a9f9bc4bcb25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_594727_sru_customer_information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SRU" source="x_594727_sru">1648dbdd0736201066c4fa9e7c1ed0a0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</sys_scope>
+            <sys_update_name>sys_ui_section_e46b15d51b032010a915a9f9bc4bcb25</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-21 10:20:47</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

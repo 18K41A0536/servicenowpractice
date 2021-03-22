@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>transaction_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name/>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var form=g_form.getValue('transaction type');
+	if(form=='account transfer')
+		{
+			g_form.setVisible('acc no','true');
+		}
+	else
+		{
+			g_form.setVisible('acc no','false');
+		}
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-21 11:01:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>49c1e5d91b032010a915a9f9bc4bcb89</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="SRU" source="x_594727_sru">1648dbdd0736201066c4fa9e7c1ed0a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</sys_scope>
+        <sys_update_name>sys_script_client_49c1e5d91b032010a915a9f9bc4bcb89</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-21 11:09:40</sys_updated_on>
+        <table>x_594727_sru_daily_transaction_report</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</application>
+        <file_path/>
+        <instance_id>a77f1683db865bccff27d5b0cf961985</instance_id>
+        <instance_name>dev59633</instance_name>
+        <name>sys_script_client_49c1e5d91b032010a915a9f9bc4bcb89</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;transaction_type&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name/&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var form=g_form.getValue('transaction type');
+	if(form=='account transfer')
+		{
+			g_form.setVisible('acc no','true');
+		}
+	else
+		{
+			g_form.setVisible('acc no','false');
+		}
+
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-03-21 11:01:25&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;49c1e5d91b032010a915a9f9bc4bcb89&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="SRU" source="x_594727_sru"&gt;1648dbdd0736201066c4fa9e7c1ed0a0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SRU"&gt;1648dbdd0736201066c4fa9e7c1ed0a0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_49c1e5d91b032010a915a9f9bc4bcb89&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-21 11:09:40&lt;/sys_updated_on&gt;&lt;table&gt;x_594727_sru_daily_transaction_report&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1976237984</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>df818871dbf2201053482fb7489619fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-21 11:09:40</sys_created_on>
+        <sys_id>e096ed5d1b032010a915a9f9bc4bcbf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1785479efc10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-21 11:09:40</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>2c96ed5d69032010edf9d008161f3af0</update_guid>
+        <update_guid_history>2c96ed5d69032010edf9d008161f3af0:1976237984,77a4255d0f0320107f98a9e2a079d801:1201142157</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-21 11:09:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>34a5a8a2f55544548ca006ed65072c84</sys_id>
+        <sys_metadata>49c1e5d91b032010a915a9f9bc4bcb89</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SRU" source="x_594727_sru">1648dbdd0736201066c4fa9e7c1ed0a0</sys_package>
+        <sys_parent display_value="Daily Transaction Report">faf8d1511b032010a915a9f9bc4bcb45</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</sys_scope>
+        <sys_scope_delete display_value="">03886e49c878401080f86a6d6a30d910</sys_scope_delete>
+        <sys_update_name>sys_script_client_49c1e5d91b032010a915a9f9bc4bcb89</sys_update_name>
+        <sys_update_version display_value="sys_script_client_49c1e5d91b032010a915a9f9bc4bcb89">e096ed5d1b032010a915a9f9bc4bcbf1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-21 11:09:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

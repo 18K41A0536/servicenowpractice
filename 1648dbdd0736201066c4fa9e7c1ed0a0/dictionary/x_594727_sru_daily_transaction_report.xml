@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Daily Transaction Report" max_length="40" name="x_594727_sru_daily_transaction_report" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Amount" max_length="40" name="amount" type="float"/>
+        <element label="Form Account" max_length="40" name="form_account" type="string"/>
+        <element label="To Account" max_length="40" name="to_account" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Transaction Type" max_length="40" name="transaction_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="withdraw" sequence="0" value="withdraw"/>
+                <element inactive_on_update="false" label="deposit" sequence="1" value="deposit"/>
+                <element inactive_on_update="false" label="account transfer" sequence="2" value="account transfer"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Daily Transaction Report">12899d551b032010a915a9f9bc4bcb35</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_594727_sru_daily_transaction_report">sys_created_onONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^EQ<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>new transaction </mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_594727_sru_daily_transaction_report</name>
+        <order>120</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>admin,x_594727_sru.daily_transaction_report_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-21 11:45:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d18e21d11b432010a915a9f9bc4bcbaa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>new transaction </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SRU" source="x_594727_sru">1648dbdd0736201066c4fa9e7c1ed0a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SRU">1648dbdd0736201066c4fa9e7c1ed0a0</sys_scope>
+        <sys_update_name>sys_app_module_d18e21d11b432010a915a9f9bc4bcbaa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-22 04:16:05</sys_updated_on>
+        <timeline_page/>
+        <title>new transaction </title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
